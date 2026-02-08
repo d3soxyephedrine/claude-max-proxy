@@ -1,4 +1,4 @@
-run = "bun run start"
+run = "bun install --frozen-lockfile && bun run start"
 entrypoint = "bin/proxy.ts"
 
 [env]
