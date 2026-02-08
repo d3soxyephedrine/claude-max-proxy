@@ -4,3 +4,5 @@ entrypoint = "bin/proxy.ts"
 [env]
 CLAUDE_PROXY_HOST = "0.0.0.0"
 CLAUDE_PROXY_PORT = "3456"
+ANTHROPIC_API_KEY = "dummy"
+ANTHROPIC_BASE_URL = "http://127.0.0.1:3456"
