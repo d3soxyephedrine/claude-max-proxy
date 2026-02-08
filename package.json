@@ -1,0 +1,12 @@
+{
+  "name": "claude-max-proxy-replit",
+  "version": "4.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "bun run bin/proxy.ts",
+    "claude": "bash bin/start-claude.sh"
+  },
+  "dependencies": {
+    "hono": "^4.11.4"
+  }
+}
